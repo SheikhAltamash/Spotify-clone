@@ -76,14 +76,12 @@
           </div>
           <div class="sticky-nav-opt">
             <button class="badge nav-bag hide">Explore Premium</button>
-            <button class="badge nav-bag blackbage">
-              <i
-                class="fa-regular fa-circle-down"
-                style="margin-right: 5px"
-              ></i>
+            <button class="badge nav-bag blackbage" id="ok">
+              <i class="fa-regular fa-circle-down close"
+                style="margin-right: 5px"></i>
               Install App
             </button>
-            <i class="fa-regular fa-user nav-bag"></i>
+            <i class="fa-regular fa-user nav-bag close"></i>
           </div>
         </div>
 
@@ -113,7 +111,7 @@
 
 <div class="card" data-index="2">
   <img src="meta.jpg" class="card-img" />
-  <p class="card-title">Metamorphosis</p>
+  <p class="card-title">Metamophosis</p>
   <p class="card-info">Interworld</p>
 </div>
 
@@ -173,7 +171,7 @@
           <div class="mpp">
             <div class="mpp1">
               <b
-                ><span id="song-name" style="font-weight: 500; font-size: 1rem"
+                ><span id="song-name"
                   >Bikhra</span
                 ></b
               ><br />
@@ -189,17 +187,19 @@
         </div>
 
         <div class="volume">
-          <label for="customRange"
-            ><i class="fa-solid fa-volume-high"></i
+          <label for="customRange" 
+            ><i class="fa-solid fa-volume-high" id="vol"></i
           ></label>
+          
           <input
             type="range"
             min="0"
             id="customRange"
             max="100"
-           
+           style="display:none;"
             value="30"
           />
+         
         </div>
 
         <div class="player">
@@ -207,7 +207,7 @@
             <img src="player_icon1.png" alt="" class="player-control-icon" />
             <img src="player_icon2.png" alt="" class="player-control-icon" />
            
-            <i id="play" class="fa-regular fa-circle-play player-control-icon" style="opacity: 1; font-size: 2rem;margin-top:0px; margin-bottom:0px;"></i>
+            <i id="play" class="fa-regular fa-circle-play player-control-icon"></i>
             <img src="player_icon4.png" alt="" class="player-control-icon" />
             <img src="player_icon5.png" alt="" class="player-control-icon" />
           </div>
