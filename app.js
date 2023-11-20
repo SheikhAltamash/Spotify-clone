@@ -146,3 +146,16 @@ let vol = document.querySelector("#customRange");
 vol.addEventListener("input", () => {
   currentAudio.volume = vol.value/100;
 });
+
+let volu = document.querySelector("#vol");
+let on = false;
+volu.addEventListener("click", () => {
+  if (!on) {
+    vol.style.display = "flex";
+    on = true;
+  }
+  else {
+    vol.style.display = "none";
+    on = false;
+  }
+ });
