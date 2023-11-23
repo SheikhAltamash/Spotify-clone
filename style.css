@@ -380,7 +380,7 @@ margin-left: 1.5rem;
     .main_content{
         position:relative;
        overflow:unset;
-       left:-18000px;
+       left:-180px;
        height:100%;
        width:400px;
        background: #000;
