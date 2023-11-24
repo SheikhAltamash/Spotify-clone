@@ -15,7 +15,7 @@ let ul = document.createElement("ul");
 let audioFiles = [
   "play/clan.mp3",
   "play/woman.m4a",
-  "play/meta.mp3",
+  "play/tu hai kaha.mp3",
   "play/amplifier.mp3",
   "play/naja.mp3",
   "play/paisa.mp3",
