@@ -374,7 +374,7 @@ margin-left: 1.5rem;
 
     .sidebar{
         position: relative;
-        left:-400px;
+        left:-500px;
     }
 
     .main_content{
@@ -442,11 +442,15 @@ margin-left: 1.5rem;
       }
 
       .card{
-        height: 200px;
-        width: 100px;
+        height: 210px;
+        width: 110px;
         font-size: 1rem;
         text-shadow:2px 2px 3px  black;
-        /* box-shadow: 2px 2px 3px rgb(117, 112, 112); */
+       
+      } 
+
+      .card:hover{
+        box-shadow: 1px 1px 5px rgb(3, 144, 43);
         
       }
 
@@ -487,6 +491,7 @@ margin-left: 1.5rem;
 
 #ok{
 background: #4bfa8b;
+
 }
 #vol{
     position:relative;
@@ -494,6 +499,9 @@ background: #4bfa8b;
     right:-20px;
     font-size: 1.1rem;
 
+}
+#person{
+    margin-left: 15px;
 }
 #smallpic{
     position: relative;
@@ -508,5 +516,15 @@ background: #4bfa8b;
 }
 body{
     overflow: scroll ;
+}
+#infect{
+   position: relative;
+   top:-13px;
+}
+.card-container{
+    
+    position: relative;
+    padding-left:-10px;
+    left:-8px;
 }
 }
